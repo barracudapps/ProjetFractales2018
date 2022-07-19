@@ -1,0 +1,319 @@
+commit 8731d55d58b9ad6aee56b91085c3abc0d1206a30
+Author: P Lamotte <pilamotte@r2d2.info.ucl.ac.be>
+Date:   Thu May 10 11:38:18 2018 +0200
+
+    mODIFICATION archive
+
+ SI-Rapport2-Fractales.pdf      | Bin 234359 -> 0 bytes
+ fractal_60_CALBERT_LAMOTTE.zip | Bin 603985 -> 1174744 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 98377b6721d2943a5871c1ce951e5737829a89ac
+Author: P Lamotte <pilamotte@r2d2.info.ucl.ac.be>
+Date:   Thu May 10 11:33:17 2018 +0200
+
+    Ajout archive
+
+ fractal_60_CALBERT_LAMOTTE.zip | Bin 0 -> 603985 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c499ca547a9905d87f3157ffe36c994b7c266bda
+Author: P Lamotte <pilamotte@r2d2.info.ucl.ac.be>
+Date:   Thu May 10 11:28:08 2018 +0200
+
+    Ajout du rapport .pdf
+
+ .nfs0000000063192abc0000438b | Bin 0 -> 31572 bytes
+ SI-Rapport2-Fractales.pdf    | Bin 0 -> 234359 bytes
+ tests/fichier1               |  18 ++++++++++++++++++
+ tests/fichier2               |   8 ++++++++
+ tests/fichier3               |   2 ++
+ tests/fichier4               |  25 +++++++++++++++++++++++++
+ tests/fichier5               |   2 ++
+ tests/fichier6               |   4 ++++
+ 8 files changed, 59 insertions(+)
+
+commit 048d7269d8505afa4d3f7886f7e4087de37e3dd8
+Author: P Lamotte <pilamotte@r2d2.info.ucl.ac.be>
+Date:   Thu May 10 11:26:34 2018 +0200
+
+    Finalisation du projet
+
+ Makefile                |   9 ++++---
+ fichier1                |  18 --------------
+ fichier2                |   8 ------
+ fichier3                |   2 --
+ fichier4                |  25 -------------------
+ fichier5                |   2 --
+ fichier6                |   4 ---
+ libfractal/fractal.o    | Bin 9240 -> 0 bytes
+ libfractal/libfractal.a | Bin 21826 -> 0 bytes
+ libfractal/tools.o      | Bin 12168 -> 0 bytes
+ main                    | Bin 30984 -> 0 bytes
+ main.c                  |  13 ----------
+ main.o                  | Bin 8288 -> 0 bytes
+ tests/test1             | Bin 12960 -> 0 bytes
+ tests/test1.c           |  65 ------------------------------------------------
+ 15 files changed, 5 insertions(+), 141 deletions(-)
+
+commit 3aed63b09fc13c4e01e4d308b7dca40c9fc7d6f3
+Author: P Lamotte <pilamotte@r2d2.info.ucl.ac.be>
+Date:   Thu May 10 10:52:24 2018 +0200
+
+    Modif Makefile
+
+ Makefile | 7 -------
+ 1 file changed, 7 deletions(-)
+
+commit 0a70d189e128e3245ef524010d583fff1ec5f16e
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Thu May 10 10:38:01 2018 +0200
+
+    Modification Makefile, retour version complete
+
+ Makefile | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit bc66beae01ea207af48e3f2bccb413a899a8cd8b
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Thu May 10 10:35:44 2018 +0200
+
+    réenvoi dossier modifié
+
+ libfractal/fractal.o    | Bin 0 -> 9240 bytes
+ libfractal/libfractal.a | Bin 0 -> 21826 bytes
+ libfractal/tools.o      | Bin 0 -> 12168 bytes
+ main                    | Bin 0 -> 30984 bytes
+ main.o                  | Bin 0 -> 8288 bytes
+ tests/test1             | Bin 0 -> 12960 bytes
+ tests/test1.c           |  65 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 7 files changed, 65 insertions(+)
+
+commit 05f0faefa2bcf015bed89e1d93ef30e4155dd803
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Thu May 10 10:35:36 2018 +0200
+
+    réenvoi dossier modifié
+
+ Makefile | 12 ------------
+ 1 file changed, 12 deletions(-)
+
+commit 41824e3dc93722860c18fa82066137cb16ce061f
+Merge: de67df4 3eb1d53
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Thu May 10 10:30:55 2018 +0200
+
+    Suppression dossier Tests pour remplacer par test
+
+commit de67df45c2f4f3086c9354ea06837404fa663ef8
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Thu May 10 10:29:37 2018 +0200
+
+    Modification Makefile
+
+ Makefile |  3 +-
+ fichier  |  0
+ save     | 98 ----------------------------------------------------------------
+ 3 files changed, 2 insertions(+), 99 deletions(-)
+
+commit 3eb1d531c82cb23487fe7b60ea50bc11cce01a08
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Thu May 10 10:28:29 2018 +0200
+
+    Ajout fichiers tests et header main
+
+ main          | Bin 30984 -> 0 bytes
+ main.h        |  17 +++++++++++++++
+ tests/test1   | Bin 0 -> 12960 bytes
+ tests/test1.c |  65 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 82 insertions(+)
+
+commit c53bb3ff4c13ec4be9f7690be51b25d249ba16ed
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Thu May 10 10:24:52 2018 +0200
+
+    Ajout fichiers tests et header main
+
+ Makefile | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit 61d977a7e35f2b06d1f0ca079c5708996a4d488b
+Merge: 6c4643c ffa377c
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Thu May 10 10:21:17 2018 +0200
+
+    Ajout fichiers tests et header main
+
+commit 6c4643cb42c8989be51b7392cd166d7c3fa16832
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Thu May 10 10:18:39 2018 +0200
+
+    Ajout fichiers tests et header main
+
+ Main     | Bin 8296 -> 0 bytes
+ Makefile |   5 +++-
+ fichier  |   0
+ main     | Bin 30984 -> 30984 bytes
+ main.c   |   6 ++--
+ save     |  98 ---------------------------------------------------------------
+ 6 files changed, 7 insertions(+), 102 deletions(-)
+
+commit ffa377c072ab5d9596c7ce122d7df6fdabb9297e
+Author: P Lamotte <pilamotte@yoda.info.ucl.ac.be>
+Date:   Tue May 8 17:14:32 2018 +0200
+
+    Implementation Clean et suppression des fichiers generes
+
+ Main                    | Bin 8296 -> 0 bytes
+ Makefile                |  10 ++++++++--
+ libfractal/fractal.o    | Bin 9240 -> 0 bytes
+ libfractal/libfractal.a | Bin 21826 -> 0 bytes
+ libfractal/tools.o      | Bin 12168 -> 0 bytes
+ main                    | Bin 30984 -> 0 bytes
+ main.o                  | Bin 8288 -> 0 bytes
+ 7 files changed, 8 insertions(+), 2 deletions(-)
+
+commit 0497d6c6be8374a42eb6935fd115b187268b1960
+Author: Julien <julien.calbert@student.uclouvain.be>
+Date:   Tue May 8 16:26:00 2018 +0200
+
+    Vrais fichiers
+
+ Main                    | Bin 0 -> 8296 bytes
+ Makefile                |  24 +-
+ fichier                 |   0
+ fichier1                |  18 ++
+ fichier2                |   8 +
+ fichier3                |   2 +
+ fichier4                |  25 ++
+ fichier5                |   2 +
+ fichier6                |   4 +
+ libfractal/fractal.c    |  68 +++--
+ libfractal/fractal.h    |   8 +-
+ libfractal/fractal.o    | Bin 0 -> 9240 bytes
+ libfractal/libfractal.a | Bin 0 -> 21826 bytes
+ libfractal/tools.c      |   2 +-
+ libfractal/tools.o      | Bin 0 -> 12168 bytes
+ main                    | Bin 0 -> 30984 bytes
+ main.c                  | 654 ++++++++++++++++++++++++++++++++++++++++++++++--
+ main.o                  | Bin 0 -> 8288 bytes
+ save                    |  98 ++++++++
+ 19 files changed, 855 insertions(+), 58 deletions(-)
+
+commit a94cc8d2b8c3c54d1a050737d6692074884a1016
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Tue May 8 15:05:41 2018 +0200
+
+    modifs
+
+ Makefile             | 13 ++++++-------
+ libfractal/fractal.c | 12 ++++--------
+ libfractal/tools.c   |  1 -
+ 3 files changed, 10 insertions(+), 16 deletions(-)
+
+commit ac47f8f634fd3089ba8492b6dc55908bc0d8b754
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Tue May 8 14:31:06 2018 +0200
+
+    Modification Makefile
+
+ Makefile | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit f085c87240c8d03729e56f6afa7ff47bd7840ea2
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Wed May 2 14:44:29 2018 +0200
+
+    Fonction fractal_get_value
+
+ libfractal/fractal.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit 961f2ce6bbf95c52ffde13f51b01ef2cda4c8e71
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Wed May 2 14:39:29 2018 +0200
+
+    Allocation fractale
+
+ Makefile             | 4 ++--
+ libfractal/fractal.c | 6 ++++--
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+
+commit 19248e2e2f5136c3d63007e4d1132d04fb9ab1e5
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Sun Apr 29 18:35:06 2018 +0200
+
+    Modification du contenu de Makefile sur base du dossier d'aider de compilation example_library sur Moodle
+
+ Makefile | 29 ++++++++++++++---------------
+ 1 file changed, 14 insertions(+), 15 deletions(-)
+
+commit 21acf99ae2decc074488a496f156d0744754594c
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Sat Apr 28 15:50:06 2018 +0200
+
+    Finalisation Makefile
+
+ Makefile | 23 ++++++++++++-----------
+ 1 file changed, 12 insertions(+), 11 deletions(-)
+
+commit b31ad368a3a06a64e977c236a6f3c73cc68dfc71
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Sat Apr 28 14:45:04 2018 +0200
+
+    Avancée dans le Makefile principal
+
+ Makefile | 24 +++++++++++++++++++-----
+ 1 file changed, 19 insertions(+), 5 deletions(-)
+
+commit 0f075ac0f77443c167175cfc8a2a6aad61f7fb03
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Thu Apr 26 23:36:54 2018 +0200
+
+    Modification Makefile principal + ajout du chemin dans tools.c
+
+ Makefile           | 5 +++--
+ libfractal/tools.c | 3 ++-
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+commit 630fe1a8195ac95aa720b9b69ebf96cb8a419903
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Sun Apr 22 14:24:18 2018 +0200
+
+    Modification Makefile principal
+
+ Makefile | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 1f9061181e339b2848cd4373b69ff6f0dd1298a2
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Sun Apr 22 13:41:42 2018 +0200
+
+    Remise à zéro de tool.c
+
+ libfractal/tools.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b4899d3da16bf7bc24c3a356837cbd81bbc454c7
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Sun Apr 22 13:39:58 2018 +0200
+
+    Modification Makefile principal
+
+ Makefile           | 12 +++++++-----
+ libfractal/tools.c |  2 +-
+ 2 files changed, 8 insertions(+), 6 deletions(-)
+
+commit 36248326bb8140a1dc7d81ca7a7acf3ef76d49d3
+Author: FitzReaper <pierre.muntjac@gmail.com>
+Date:   Fri Apr 20 17:23:33 2018 +0200
+
+    Ajout des fichiers
+
+ Makefile             |   6 +++
+ libfractal/Makefile  |  15 +++++++
+ libfractal/fractal.c |  54 +++++++++++++++++++++++++
+ libfractal/fractal.h | 112 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ libfractal/tools.c   | 103 ++++++++++++++++++++++++++++++++++++++++++++++
+ main.c               |  26 ++++++++++++
+ 6 files changed, 316 insertions(+)
